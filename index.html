@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <!-- font awesome link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-     <!-- css link -->
-    <link rel="stylesheet" href="style.css">
     <!-- animate link -->
      <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+       <!-- css link -->
+    <link rel="stylesheet" href="style.css">
     <title>Builders</title>
 </head>
 <body class="font-sans-serif">
     <!-- This is the header -->
-    <header class="sticky-top shadow-sm">
+    <header class="fixed-top shadow-sm">
   <nav class="navbar navbar-expand-lg bg-light p-3">
     <div class="container-fluid">
       
@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> 
         <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item">
-            <a class="nav-link active mx-4 text-dark fw-semibold fs-5 link-warning" aria-current="page" href="./index (1).html">Home</a>
+            <a class="nav-link active mx-4 text-dark fw-semibold fs-5 link-warning" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-4 text-dark fw-semibold fs-5 link-warning" href="./about.html">About us</a>
@@ -60,53 +60,58 @@
     <!-- header complete  -->
      <!-- This is the main part of the landing page -->
      <main>
+      <!-- section no 01 -->
    <section class="sec-01 container-fluid">
-      <div class="back-img w-100 position-relative ">
+      <div class="back-img w-100 position-relative  mt-lg-0 ">
         <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/other/bg_5.jpg.webp" class="w-100 object-fit-cover " alt="">
            
       </div>
       <div class="front-txt">
-     <p class=" h5 text-center position-absolute   fs-3   w-25 animate__animated animate__slideInLeft text-warning">New Arrivals</p>
+     <p class=" h5 text-center position-absolute     w-25 animate__animated animate__slideInLeft text-warning">New Arrivals</p>
       
      </div>
      <div class="front-txt1">
-     <p class="  text-center  position-absolute   fs-1    w-25 animate__animated animate__slideInRight fw-bold ">Build Your <span class="bg-warning fs-1 px-3">Dream</span></p>
+     <p class="  text-center  position-absolute  w-25 animate__animated animate__slideInRight fw-bold ">Build Your <span class="bg-warning fs-4 px-1">Dream</span></p>
      </div>
      </div>
      <div class="front-txt2">
-     <p class="  text-center  position-absolute  w-25 animate__animated animate__slideInUp fw-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem, nesciunt quidem repellendus laboriosam quibusdam sed voluptatibus numquam voluptates voluptatem alias aut aliquid sit qui commodi aspernatur,
+     <p class="  text-center  position-absolute  animate__animated animate__slideInUp fw-light  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem, 
      </p>
      </div>
      <div class="front-txt3 ">
-     <button class="btn  btn-lg ntext-center bg-white position-absolute animate__animated animate__slideInDown rounded-pill  text-bg-dark text-warning btn-outline-warning  ">Discover</button>
+     <button class="btn  btn-lg text-center bg-white position-absolute animate__animated animate__slideInDown rounded-pill  text-bg-dark text-warning btn-outline-warning  ">Discover</button>
      </div>
    </section>
+   <!-- section end -->
+    <!-- section no 2 -->
    <section class="sec-02 w-100 container-fluid">
     <h2 class="text-center my-5 fw-bolder fs-1 animate__animated animate__slideInUp">Our Offered Service</h2>
     <h4 class="text-center my-5 fw-light fs-4 animate__animated animate__slideInUp">Quality services to build and improve.</h4>
-    <div class="d-flex justify-content-center flex-wrap gap-5  animate__animated animate__slideInDown ">
+    <div class=" flex-lg-row    animate__animated animate__slideInDown service ">
       <div class="border px-3 py-3 rounded card-1 ">
         <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/other/Building%20drawing.webp" class="" alt="">
         <h3 class="fw-bold fs-3 text-center">Building Drawing</h3>
-        <p class="text-center fs-5   ">
+        <p class="text-center    ">
           We provide accurate architectural building drawings with modern planning.  Our team ensures structural precision and space utilization. From concept to blueprint, we design with perfection and safety.
         </p>
       </div>
       <div class="border px-3 py-3 rounded card-1 ">
         <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/other/painting.webp" class="" alt="">
         <h3 class="fw-bold fs-3 text-center">Building Drawing</h3>
-        <p class="text-center fs-5    ">
+        <p class="text-center   ">
           Enhance your property with premium interior and exterior painting services. We use durable, weather-resistant paints for a long-lasting finish. Our skilled painters bring colors to life with smooth finishing.
       </div>
       <div class="border px-3 py-3 rounded card-1 ">
         <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/other/repairing.webp" class="" alt="">
         <h3 class="fw-bold fs-3 text-center">Building Drawing</h3>
-        <p class="text-center  fs-5   ">
+        <p class="text-center     ">
          We offer reliable repairing and maintenance services for homes and buildings. From cracks to structural fixes, our experts handle all construction repairs. Restore your property’s strength and safety with professional care.
       </div>
-     
+     </div>
    </section>
-   <section class=" container-fluid ">
+   <!-- section end -->
+    <!-- section no 03 -->
+   <section class=" sec-03 container-fluid ">
     <h2 class="text-center my-5 fw-bolder fs-1 animate__animated animate__slideInUp">Our Latest Project</h2>
     <h4 class="text-center my-5 fw-light fs-3 animate__animated animate__slideInUp ">Showcasing our recent work and achievements.</h4>
     <div class=" shadow">
@@ -128,11 +133,13 @@
       </div>
   
    </section>
-   <section>
+   <!-- section end -->
+    <!-- section no 04 -->
+   <section class="sec-04">
     <h2 class="text-center my-5 fw-bolder fs-1 animate__animated animate__slideInUp">Meet Our Expert Member</h2>
     <h4 class="text-center my-5 fw-light fs-3 animate__animated animate__slideInUp ">Who are in extremely love with eco friendly system.</h4>
-    <div class="proflie-card my-4">
-      <div class="card" style="width: 23rem;">
+    <div class="proflie-card my-4 animate__animated animate__slideInLeft">
+      <div class="card" style="width:17rem;">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/team/team-1.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">1️⃣Etheil Devis</h5>
@@ -140,7 +147,7 @@
     <p href="#" class="">Managing Director (Sales)</p>
   </div>
 </div>
-<div class="card shadow " style="width: 23rem;">
+<div class="card shadow " style="width:16rem;">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/team/team-2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">2️⃣James Anderson</h5>
@@ -148,7 +155,7 @@
     <p href="#" class="">(Senior Civil Engineer)</p>
   </div>
 </div>
-<div class="card shadow" style="width: 23rem;">
+<div class="card shadow" style="width:17rem;">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/team/team-3.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">3️⃣Henry Wilson</h5>
@@ -156,7 +163,7 @@
     <p href="#" class="">(Operations & Site Manager)</p>
   </div>
    </div>
-  <div class="card shadow" style="width: 23rem;">
+  <div class="card shadow" style="width:16rem;">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/team/team-4.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">4️⃣Sophia Martin</h5>
@@ -166,7 +173,9 @@
 </div>
    
    </section>
-   <section>
+   <!-- section end -->
+    <!-- section no 05 -->
+   <section class="sec-05">
     <h2 class="text-center my-5 fw-bolder fs-1 animate__animated animate__slideInUp">Some features that Made us Unique</h2>
     <h4 class="text-center my-5 fw-light fs-3 animate__animated animate__slideInUp ">Who are in extremely love with eco friendly system.</h4>
     <div class="boxes animate__animated animate__slideInDown">
@@ -227,11 +236,13 @@ technology and power.
     </div>
     
    </section>
-   <section>
+   <!-- section end -->
+    <!-- section no 06 -->
+   <section class="sec-06">
     <h2 class="text-center my-5 fw-bolder fs-1 animate__animated animate__slideInUp">Happy Clients</h2>
     <h4 class="text-center my-5 fw-light fs-5 animate__animated animate__slideInUp ">Testimonal.</h4>
     <div class="testimonilas ">
-      <div class="card animate__animated animate__slideInLeft  shadow" style="width: 24rem;">
+      <div class="card animate__animated animate__slideInLeft  shadow">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/testi/testi-3.webp" class="card-img-top rounded-circle imege" alt="...">
   <div class="card-body">
     <p class="card-text fs-5  ">We provide accurate architectural building drawings with modern planning. Our team ensures structural precision and space utilization.</p>
@@ -239,37 +250,42 @@ technology and power.
     <p >CEO At GOOGLE</p>
   </div>
 </div>
-<div class="card animate__animated animate__slideInUp  shadow" style="width:24rem;">
+<div class="card animate__animated animate__slideInUp  shadow">
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/testi/testi-4.jpg" class="card-img-top rounded-circle imege" alt="...">
   <div class="card-body">
-    <p class="card-text fs-5 ">Enhance your property with premium interior and exterior painting services. We use durable, weather-resistant paints for a long-lasting finish.</p>
+    <p class="card-text  ">Enhance your property with premium interior and exterior painting services. We use durable, weather-resistant paints for a long-lasting finish.</p>
         <h5 class="card-title fw-bold">Mark Alviero Wiens</h5>
     <p >CEO At GOOGLE</p>
   </div>
 </div>
-<div class="card animate__animated animate__slideInRight shadow" style="width:24rem;">
+<div class="card animate__animated animate__slideInRight shadow" >
   <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/testi/testi-5.jpg" class="card-img-top rounded-circle imege " alt="...">
   <div class="card-body">
-    <p class="card-text fs-5 ">We offer repairing and maintenance services for homes and buildings. From cracks to structural fixes, our experts handle all construction repairs.</p>
+    <p class="card-text  ">We offer repairing and maintenance services for homes and buildings. From cracks to structural fixes, our experts handle all construction repairs.</p>
         <h5 class="card-title fw-bold">Johny Doe</h5>
     <p >CEO At GOOGLE</p>
   </div>
 </div>
     </div>
    </section>
-   <section>
-    <div class="brands">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-1.png" class="my-4 mx-3  shadow" alt="">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-2.png" class="my-4 mx-3  shadow" alt="">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-3.png" class="my-4 mx-3  shadow" alt="">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-4.png" class="my-4 mx-3  shadow" alt="">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-5.png" class="my-4 mx-3  shadow" alt="">
-      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-1.png" class="my-4 mx-3  shadow" alt="">
+   <!-- section end -->
+    <!-- section no 07 -->
+   <section class="sec-07">
+    <div class="brands py-4  ">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-1.png" class="my-4 mx-3 animate__animated animate__slideInUp shadow" alt="">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-2.png" class="my-4 mx-3 animate__animated animate__slideInUp shadow" alt="">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-3.png" class="my-4 mx-3 animate__animated animate__slideInUp shadow" alt="">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-4.png" class="my-4 mx-3 animate__animated animate__slideInUp" alt="">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-5.png" class="my-4 mx-3 animate__animated animate__slideInUp alt="">
+      <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/c-logo-1.png" class="my-4 mx-3 animate__animated animate__slideInUp shadow" alt="">
       
     </div>
    </section>
+   <!-- section end -->
      </main>
-     <footer class=" ">
+     <!-- main part is complete -->
+      <!-- this is the footer -->
+     <footer>
       <div class="top-footer row container-fluid flex-column flex-lg-row py-3 ">
       <div class="col-12 col-md-6 col-lg-3 px-3  animate__animated animate__slideInUp">
       <img src="https://nimraumer-dev.github.io/Hackathon-Project-Real-state-Website-UI/img/logo/logo.png.webp" alt="">
@@ -308,54 +324,9 @@ technology and power.
         </div>
       </div>
      </footer>
+     <!-- footer is complete -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- landing page is complete -->
 
 
 
